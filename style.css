@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #d7f0ff, #b3e0ff);
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.theater {
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.8em;
+    color: #0077cc;
+    text-shadow: 0 0 8px #a8d8ff;
+    margin-bottom: 30px;
+}
+
+.marquee {
+    color: #4da6ff;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.screen {
+    border: 8px solid #66b3ff;
+    box-shadow: 0 0 25px #99ccff, 0 0 50px #80bfff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f0faff;
+    border-radius: 20px;
+}
+
+video {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.controls {
+    margin-top: 25px;
+}
+
+button {
+    background: linear-gradient(to right, #66ccff, #99e6ff);
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 30px;
+    color: #003366;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 102, 204, 0.3);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #4da6ff, #80dfff);
+    box-shadow: 0 6px 20px rgba(0, 102, 204, 0.5);
+    transform: scale(1.05);
+}
